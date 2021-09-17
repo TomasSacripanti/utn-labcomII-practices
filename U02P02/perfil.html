@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Perfil: Datos personales.</h1>
+      <form class="form" action="">
+        <h2>Estudiante</h2>
+        <div class="form-control">
+          <label for="name">Nombre Completo</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-control">
+            <label for="age">Edad</label>
+            <input type="text" name="age" id="age" />
+        </div>
+        <div class="form-control">
+            <label for="nationality">Nacionalidad</label>
+            <select name="nationality" id="nationality">
+                <option value="Argentino">Argentino</option>
+                <option value="Brasilero">Brasilero</option>
+                <option value="Chileno">Chileno</option>
+                <option value="Italiano">Italiano</option>
+                <option value="Uruguayo">Uruguayo</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="laboral">Condición laboral</label>
+            <select name="laboral" id="laboral">
+                <option value="desempleado">Desempleado</option>
+                <option value="buscando">En búsqueda laboral</option>
+                <option value="part">Modalidad Part Time</option>
+                <option value="full">Modalidad Full Time</option>
+            </select>
+        </div>
+        <div class="linea"></div>
+        <h4>Gustos personales</h4>
+        <div class="form-control">
+            <label for="music">Gustos musicales</label>
+            <input type="text" name="music" id="music" />
+        </div>
+        <div class="form-control">
+            <label for="food">Comida preferida</label>
+            <select name="food" id="food">
+                <option value="hamburgues">Hamburguesa</option>
+                <option value="fideos">Fideos</option>
+                <option value="vegetales">Vegetales</option>
+                <option value="pollo">Pollo</option>
+            </select>
+        </div>
+        <div class="form-control" id="remember">
+            <label for="remember-user">Recordar los datos al entrar de nuevo</label>
+            <input type="checkbox" name="remember-user" id="">
+        </div>
+        <div class="form-control">
+            <button>Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
