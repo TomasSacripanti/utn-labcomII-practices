@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Tomás Sacripanti</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / cotenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenedor principal -->
+      <main>
+        <form action="">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <label for="name">Nombre</label>
+                </td>
+                <td>
+                  <input type="text" id="name" name="name" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email</label>
+                </td>
+                <td>
+                  <input type="text" name="email" id="email" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="age">Edad</label>
+                </td>
+                <td>
+                  <input type="number" name="age" id="age" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="color">Color favorito</label>
+                </td>
+                <td>
+                  <input type="color" name="color" id="color" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="comment">Comentario</label>
+                </td>
+                <td>
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    cols="20"
+                    rows="5"
+                    min="10"
+                  ></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button" name="submit" id="submit">Enviar</button>
+        </form>
+      </main>
+      <!-- Contenedor secundario / derecho -->
+      <div class="right">
+        <h2>Sobre mí</h2>
+        <p>
+          Aparte de destinar mi tiempo a aprender a programar, lo dedico a
+          aprender sobre criptomonedas y los mercados financieros.
+        </p>
+      </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+      <p>© copyright labcomII.com</p>
+    </footer>
+  </body>
+</html>
